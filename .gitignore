@@ -1,0 +1,8 @@
+*.dsc
+*.tar*
+*.buildinfo
+*.changes
+*.deb
+
+gksu-alternative/debian/gksu*
+gksu-alternative/debian/files

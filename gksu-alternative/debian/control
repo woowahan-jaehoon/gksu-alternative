@@ -1,0 +1,12 @@
+Source: gksu
+Section: base
+Priority: optional
+Maintainer: Jaehoon Jeong <jaehoon.jeong@woowahan.com>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/woowahan-jaehoon/gksu-alternative
+
+Package: gksu
+Architecture: any
+Depends: policykit-1
+Description: This package replace gksu
+ It just make symbolic link gksu to pkexec

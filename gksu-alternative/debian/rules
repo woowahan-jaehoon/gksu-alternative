@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+clean:
+	rm -rf debian/gksu*
+	rm -rf debian/files
+
+
+build:
+	@# Do nothing
+
+binary:
+	mkdir debian/gksu
+	cp -a usr debian/gksu/
+	dh_gencontrol
+	dh_builddeb
